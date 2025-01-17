@@ -11,19 +11,19 @@
 */
 
 @keyframes scale {
-  from{
+  from {
     transform: scale(1);
   }
-   to{
+   to {
     transform: scale(1.25);
   }
 }
 
-@keyframes sparks{
-  from{
+@keyframes sparks {
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
   }
 }
