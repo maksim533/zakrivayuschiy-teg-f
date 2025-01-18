@@ -14,7 +14,7 @@
   from {
     transform: scale(1);
   }
-   to {
+  to {
     transform: scale(1.25);
   }
 }
@@ -27,7 +27,6 @@
     opacity: 1;
   }
 }
-
 
 /*     стили анимация сердца      */
 
@@ -85,8 +84,8 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: scaleInHeart 0.3s 1 alternate ease-in 0.1s;
   transform-origin: center;
+  animation: scaleInHeart 0.3s 1 alternate ease-in 0.1s;
 }
 
 .like-icon.is-liked .sparks {
@@ -95,12 +94,9 @@
 
 /*    стили анимация сердца      */
 
-
-
-
 /*    стили анимаций кнопок       */
 
-.button:focus { 
+.button:focus {
   outline: none;
 }
 
@@ -121,9 +117,8 @@
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--Themes-mainColor, #000000);
-  transition: border 0.3s ease;
   outline: none;
+  transition: border 0.3s ease;
 }
-
 
 /*    стили анимаций кнопок       */
