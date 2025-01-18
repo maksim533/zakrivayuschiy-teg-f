@@ -194,7 +194,7 @@
   background-color: var(--Themes-mainColor, #000000);
 }
 
-.popup[open]{
+.popup[open] {
   display: flex;
 }
 
